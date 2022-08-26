@@ -1,0 +1,14 @@
+sort1 uses: Bubble Sort
+
+How do you know?: The Buble Sort algorithm in the best scenario (sorted) has a lower bound for running time of n. With that said, if we run the programs using the sorted files we conclude that
+with a large n (50000) the program sort1 has the best execution time which means that it corresponds to the Bubble Sort algorithm.
+
+sort2 uses: Merge Sort
+
+How do you know?: Since we know that in the worst case scenario the Merge Sort (nlog(n)) has better efeciency than the Selection Sort (O(n^2)) and the Buble Sort (O(n^2)),
+by running the programs using the random text files we observe that the sort2 has always the smaller execution time, which means that it corresponds to the Merge Sort algorithm.
+
+sort3 uses: Selection Sort
+
+How do you know?: By exclusion of parts we can argue that the program sort3 corresponds to the Selection Sort algorithm. Besides, we can also say that since this algorithm has
+the same execution time in the best and worst cases (n^2), the times when running the program using the sorted text files and the reversed text files will be similar.
