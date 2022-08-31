@@ -18,8 +18,8 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: transparent;
-    height: 100px;
-    width: 100px;
+    height: 12.5%;
+    width: 12.5%;
     border: none;
     cursor: pointer;
   }
@@ -29,11 +29,103 @@
       position: absolute;
       top: 7%;
       left: 50%;
-      transform: translate(-50%, 100%);
+      transform: translate(-50%, 7vw);
       -ms-transform: translate(-50%, -50%);
       background-color: transparent;
-      height: 100px;
-      width: 100px;
+      height: 12.5%;
+      width: 12.5%;
       border: none;
       cursor: pointer;
+    }
+
+    /* Style the h2 */
+    h2 {
+      font-family: Helvetica, sans-serif;
+      letter-spacing: 2px;
+      font-size: 3vw;
+      text-align: center;
+    }
+
+    /* Style the h5 */
+    h5 {
+      font-family: Helvetica, sans-serif;
+      letter-spacing: 2px;
+      font-size: 1.5vw;
+      text-align: center;
+      width: 70%;
+      border: none;
+      word-break: keep-all;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+
+    /* Style the img1 used inside photos.html */
+    #img1 {
+      width: 78.5%;
+    }
+
+    /* Style the img2 used inside photos.html */
+    #img2 {
+      width: 78.5%;
+    }
+
+    /* Style the img3 used inside photos.html */
+    #img3 {
+      width: 78.5%;
+    }
+
+    /* Style the img4 used inside photos.html */
+    #img4 {
+      width: 40%;
+    }
+
+    /* Style the img5 used inside photos.html */
+    #img5 {
+      width: 78.5%;
+    }
+
+    /* Style the img6 used inside photos.html */
+    #img6 {
+      width: 40%;
+    }
+
+    /* Style the img7 used inside photos.html */
+    #img7 {
+      width: 78.5%;
+    }
+
+    form {
+      margin-top: 15%;
+      border: 3px solid #f1f1f1;
+      font-family: Arial;
+    }
+
+    input[type=text], input[type=submit] {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    input[type=email], input[type=submit] {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    input[type=submit] {
+      background-color: #04AA6D;
+      color: white;
+      border: none;
+    }
+
+    input[type=submit]:hover {
+      opacity: 0.8;
     }

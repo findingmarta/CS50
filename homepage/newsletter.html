@@ -11,32 +11,11 @@
     <body>
         <div class="container-fluid">
             <div class="text-center">
-                <h1 class="display-1">LITTLE MIX</h1>
+                <h1 class="display-1">NEWSLETTER</h1>
                 <div class="container">
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="photo-gallery/11.jpg" class="d-block w-100" alt="SM-BTS">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="photo-gallery/17.jpg" class="d-block w-100" alt="Royalty">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="photo-gallery/24.jpg" class="d-block w-100" alt="Cute">
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
-                      <button class="btn-carousel" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                    <button class="btn-carousel" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
                         <img src="button.png">
-                      </button>
+                    </button>
                 </div>
                 <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
                     <div class="offcanvas-header">
@@ -57,12 +36,33 @@
                                 <a class="nav-link text-dark" href="photos.html">Photos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" href="newsletter.html" role="button">Newsletter</a>
+                                <a class="nav-link text-dark" href="sign_in.html" role="button">News</a>
                             </li>
                         </ul>
                     </div>
                 </div>
+
+                <form>
+                    <div class="container" >
+                        <h2>Subscribe to our Newsletter</h2>
+                        <h5>By providing this information, you are opting to receive emails from Little Mix with news, special offers, promotions and messages tailored to your interests, and you agree to the UMG/Little Mix privacy policy and terms of use.</h5>
+                    </div>
+                    <div class="container" style="background-color:white">
+                        <input type="text" placeholder="Name" name="name" autofocus required>
+                        <input type="email" placeholder="Email address" name="mail" pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" required>
+                    </div>
+                    <div class="container">
+                        <input type="submit" value="Subscribe" onclick="myFunction()">
+                    </div>
+                </form>
+
+                <script>
+                    function myFunction() {
+                        alert("Thank you for subscribing!");
+                    }
+                </script>
+
             </div>
         </div>
-      </body>
+    </body>
 </html>
